@@ -1,0 +1,106 @@
+:root {
+  --main-color: #e68285;
+  --contact-color: rgb(119, 119, 119);
+  --contact-red-color: rgb(214, 46, 51);
+}
+
+#aside-btn {
+  left: 0px;
+  transition: 0.5s;
+}
+
+aside {
+  background-color: black;
+  width: 200px;
+  height: 100vh;
+  left: -200px;
+  transition: 0.5s;
+}
+
+aside * {
+  color: white !important;
+  text-decoration: none !important;
+  font-size: larger;
+  margin-bottom: 20px;
+  transition: 0.2s;
+}
+
+aside *:hover {
+  color: var(--contact-red-color) !important;
+}
+
+aside i {
+  top: 50px;
+  right: 20px;
+  cursor: pointer;
+}
+
+aside .container {
+  margin-top: 80px;
+}
+
+#home {
+  background-image: url(../images/events-heavenly-header.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 85vh;
+}
+
+.overlay {
+  background-color: rgba(200, 0, 0, 0.3);
+}
+
+#details {
+  height: 400px;
+}
+
+.bg-main {
+  background-color: var(--main-color);
+  cursor: pointer;
+}
+
+.bg-gray {
+  background-color: rgba(128, 128, 128, 0.5);
+  display: none;
+}
+
+.active-singer {
+  text-decoration: none;
+}
+
+#duration {
+  background-image: url(../images/invitation-2508607__340.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#contact * {
+  color: var(--contact-color);
+}
+
+#contact button {
+  background-color: var(--contact-red-color);
+}
+
+#char-num {
+  color: var(--contact-red-color);
+}
+
+.email {
+  color: var(--contact-red-color) !important;
+}
+
+.social-container i {
+  border: 1px solid var(--contact-color);
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 5px;
+  transition: 0.2s;
+  border-radius: 90px;
+  cursor: pointer;
+}
